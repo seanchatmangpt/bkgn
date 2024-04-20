@@ -1,0 +1,94 @@
+intro:
+ title: Introduction
+ path: introduction/overview.md
+
+parts:
+
+ - title: Foundations
+   chapters:
+     - title: Domain-Driven Design Principles
+       path: foundations/ddd.md
+     - title: Reactive Architecture  
+       path: foundations/reactive.md
+     - title: Language Models
+       path: foundations/language-models.md
+       chapters:
+         - title: Prompt Engineering
+           path: foundations/language-models/prompt-engineering.md
+         - title: Fine-tuning
+           path: foundations/language-models/fine-tuning.md
+         - title: In-Context Learning
+           path: foundations/language-models/in-context-learning.md
+         - title: Sparse Representations
+           path: foundations/language-models/sparse-representations.md
+
+ - title: System Architecture
+   chapters:
+     - title: Domain Model
+       path: architecture/domain-model.md
+       chapters:
+         - title: Student Modeling
+           path: architecture/student-modeling.md
+         - title: Question Generation
+           path: architecture/question-generation.md
+         - title: Feedback Generation
+           path: architecture/feedback-generation.md
+         - title: Content Management
+           path: architecture/content-management.md
+     - title: Event-Driven Architecture
+       path: architecture/event-driven.md
+     - title: Actor Model
+       path: architecture/actor-model.md
+
+ - title: Implementation  
+   chapters:
+     - title: Project Structure
+       path: implementation/project-structure.md
+     - title: Domain Services
+       path: implementation/domain-services.md
+     - title: Application Services
+       path: implementation/application-services.md
+     - title: Infrastructure
+       path: implementation/infrastructure.md
+       chapters:
+         - title: Persistence
+           path: implementation/infrastructure/persistence.md
+         - title: Message Brokers
+           path: implementation/infrastructure/message-brokers.md
+     - title: Language Model Integration
+       path: implementation/language-model-integration.md
+     - title: Code Generation and Automation
+       path: implementation/code-generation.md
+
+ - title: Testing and Deployment
+   chapters:
+     - title: Unit Testing
+       path: testing/unit-testing.md
+     - title: Integration Testing
+       path: testing/integration-testing.md
+     - title: Continuous Integration and Delivery
+       path: testing/ci-cd.md
+     - title: Monitoring and Observability
+       path: testing/monitoring.md
+
+ - title: Best Practices and Lessons Learned
+   chapters:
+     - title: Domain Modeling Techniques
+       path: best-practices/domain-modeling.md
+     - title: Collaboration Between Domain Experts and Developers
+       path: best-practices/collaboration.md
+     - title: Error Handling and Resilience
+       path: best-practices/error-handling.md
+     - title: Performance Optimization
+       path: best-practices/performance.md
+     - title: Future Enhancements
+       path: best-practices/future-enhancements.md
+       
+suffix:
+  - title: Appendices
+    path: appendices/README.md  # Added the missing path field
+    chapters:
+      - title: Glossary
+        path: appendices/glossary.md
+      - title: Further Reading
+        path: appendices/further-reading.md

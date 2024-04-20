@@ -1,0 +1,29 @@
+{
+  "template": "https://github.com/radix-ai/poetry-cookiecutter",
+  "commit": "22ec23dc9353e221ba0a0a4ac6762da4e3a560c7",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "project_type": "app",
+      "project_name": "bkgn",
+      "project_description": "TODO",
+      "project_url": "https://github.com/to/do",
+      "author_name": "TODO",
+      "author_email": "todo@todo.com",
+      "python_version": "3.10",
+      "development_environment": "simple",
+      "with_conventional_commits": "0",
+      "with_fastapi_api": "1",
+      "with_typer_cli": "1",
+      "continuous_integration": "GitHub",
+      "private_package_repository_name": "",
+      "private_package_repository_url": "",
+      "__docker_image": "python:$PYTHON_VERSION-slim",
+      "__docstring_style": "NumPy",
+      "__project_name_kebab_case": "bkgn",
+      "__project_name_snake_case": "bkgn",
+      "_template": "https://github.com/radix-ai/poetry-cookiecutter"
+    }
+  },
+  "directory": null
+}
